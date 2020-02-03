@@ -3,28 +3,21 @@ var home = document.getElementById("centerHome");
 var content = document.getElementById("centerContent");
 var about = document.getElementById("centerAbout");
 
+
 //Wiring
-home.addEventListener("mouseover",mouseOverBlack(home));
-home.addEventListener("mouseout",mouseOutWhite(home));
-
-content.addEventListener("mouseover",mouseOverWhite(content));
-content.addEventListener("mouseout",mouseOutBlack(content));
-
-about.addEventListener("mouseover",mouseOverBlack(about));
-about.addEventListener("mouseout",mouseOutWhite(about));
-
-//mouse over functions
-function mouseOverBlack (x){
-    x.classList.add("hoveredBlack");
+function mOver(){
+    this.style.color = 'blue';
 }
 
-function mouseOverWhite(x){
-    x.style.color = "#343434";
+function mOut(){
+    this.style.color = 'red';
 }
-//mouse out functions
-function mouseOutWhite (x){
-    x.style.color = "#343434";
-}
-function mouseOutBlack(x){
-    x.style.color = "#C0C0C0";
-}
+
+home.addEventListener("mouseover", mOver, false);
+home.addEventListener("mouseout",mOut, false);
+
+content.addEventListener("mouseover",mOver, false);
+content.addEventListener("mouseout",mOut, false);
+
+about.addEventListener("mouseover",mOver, false);
+about.addEventListener("mouseout",mOut, false);

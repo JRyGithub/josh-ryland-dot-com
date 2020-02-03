@@ -7,4 +7,4 @@ colour scheme: https://www.schemecolor.com/black-and-white.php
 
 font: https://fonts.google.com/specimen/Alegreya
 
-images: https://burst.shopify.com/black-and-white
+images: https://burst.shopify.com/black-and-white Matthew Henry
