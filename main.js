@@ -1,7 +1,7 @@
 //sets up links to required div ids
-var home = document.getElementById("centerHome");
-var content = document.getElementById("centerContent");
-var about = document.getElementById("centerAbout");
+const home = document.getElementById("centerHome");
+const content = document.getElementById("centerContent");
+const about = document.getElementById("centerAbout");
 
 //Wiring
 home.addEventListener("mouseover",mouseOverBlack(home));
