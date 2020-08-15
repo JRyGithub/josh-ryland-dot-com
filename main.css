@@ -22,19 +22,12 @@ section {
     justify-content: center;
     height: 100vh;
 }
-#centerHome {
-    font-size: 50px;
-}
 #content{
     background: url(images/bnwunderpass.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
-#centerContent{
-    font-size: 50px;
-    color: #C0C0C0;
 }
 #about{
     background: url(images/basketballbnw.jpg) no-repeat center center fixed;
@@ -43,9 +36,6 @@ section {
     -o-background-size: cover;
     background-size: cover;
 }
-#centerAbout{
+.centerText{
     font-size: 50px;
-}
-.hoveredBlack{
-    color:  #C0C0C0;
 }
