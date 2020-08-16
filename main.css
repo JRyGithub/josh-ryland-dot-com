@@ -39,3 +39,9 @@ section {
 .centerText{
     font-size: 50px;
 }
+.mouseInNavBar{
+    color: red;
+}
+.mouseOutNavBar{
+    color: blue;
+}
