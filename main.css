@@ -45,3 +45,6 @@ section {
 .mouseOutNavBar{
     color: blue;
 }
+#homeList {
+    visibility: hidden;
+}
