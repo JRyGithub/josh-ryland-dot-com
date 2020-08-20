@@ -192,10 +192,10 @@ cover {
 }
 
 #home{
-    background: url(images/boat1.jpg) no-repeat center fixed;
+    background: url(images/boat1.jpg) no-repeat center;
 }
 #content{
-    background: url(images/boat2.jpg) no-repeat center fixed;
+    background: url(images/boat2.jpg) no-repeat center;
 }
 #about{
     background: url(images/basketballbnw.jpg) no-repeat center  fixed;
