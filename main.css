@@ -1,10 +1,10 @@
-html{
+/*html{
     background: url(images/boat1.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
+}*/
 body {
     margin: auto 0;
     font-family: 'athelas';
@@ -21,6 +21,13 @@ section {
     align-items: center;
     justify-content: center;
     height: 100vh;
+}
+#home{
+    background: url(images/boat1.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 #content{
     background: url(images/boat2.jpg) no-repeat center center fixed;
