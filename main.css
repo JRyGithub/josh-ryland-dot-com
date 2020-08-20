@@ -198,10 +198,10 @@ cover {
     background: url(images/boat2.jpg) no-repeat center;
 }
 #about{
-    background: url(images/basketballbnw.jpg) no-repeat center  fixed;
+    background: url(images/basketballbnw.jpg) no-repeat center;
 }
 #projects{
-    background: url(images/treeWay.jpg) no-repeat center  fixed;
+    background: url(images/treeWay.jpg) no-repeat center;
 }
 @media screen and (min-width: 60em) {
     .f-headline-l {
