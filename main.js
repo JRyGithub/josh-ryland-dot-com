@@ -1,18 +1,19 @@
 //sets up links to required div ids
-const navBar = document.querySelectorAll(".navBar");
-const homeList = document.getElementById("homeList");
+//const aboutTitle = document.querySelectorAll("aboutTitle");
+const aboutContent = document.getElementById("aboutContent");
+const aboutTitle = document.getElementById("aboutTitle");
 //mouse over functions
 const mouseOver = () => {
-    homeList.style.visibility = "visible";
-    navBar.forEach(el => el.className = "centerText navBar mouseInNavBar");
-};
-const mouseOut = () => {
-    homeList.style.visibility = "hidden";
-    navBar.forEach(el => el.className = "centerText navBar mouseOutNavBar")
+    if(aboutContent.id == "aboutContent"){
+        aboutContent.id = "aboutContentShow"
+    }else{
+        aboutContent.id = "aboutContent"
+    }
 };
 
 //wiring new
-const wiringNavBar = navBar.forEach(nav => {
-    nav.addEventListener("mouseover",mouseOver);
-    nav.addEventListener("mouseout",mouseOut);
-    });
+/*const wiringNavBar = aboutTitle.forEach(x => {
+    x.addEventListener("mouseover",mouseOver);
+    x.addEventListener("mouseout",mouseOut);
+    });*/
+aboutTitle.addEventListener("mouseover", mouseOver);
