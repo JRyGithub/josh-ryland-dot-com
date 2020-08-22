@@ -130,10 +130,10 @@ cover {
 #home{
     background: url(images/boat2.jpg) no-repeat center;
 }
-#content{
+#about{
     background: url(images/boat1.jpg) no-repeat center;
 }
-#about{
+#contact{
     background: url(images/basketballbnw.jpg) no-repeat center;
 }
 #projects{
@@ -144,12 +144,33 @@ cover {
         font-size: 6rem;
     }
 }
-#aboutContent {
+#aboutTitle, #projectTitle, #contactTitle{
+    cursor: pointer;
+}
+#aboutContent, #aboutContentLinks, #projectContent, #projectContentLinks,#contactContent, #contactContentLinks {
     display: none;
 }
-#aboutContentShow {
+#aboutContentShow, #projectContentShow, #contactContentShow {
     display: inline-block;
+}
+#aboutContentLinksShow, #projectContentLinksShow, #contactContentLinkShow{
+    padding-top: 0rem;
+    display: "";
 }
 .transparent {
     background-color: rgba(200,200,200,0.5);
   }
+a.nostyle:link {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: auto;
+}
+
+a.nostyle:visited {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: auto;
+}
+.f-headline-l{
+    margin-bottom: 0rem;
+}
