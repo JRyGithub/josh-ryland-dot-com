@@ -64,7 +64,7 @@ cover {
 
 .pv5 {
     padding-top: 0rem;
-    padding-bottom: 4rem;
+    padding-bottom: 1rem;
 }
 
 .ph0 {
@@ -146,6 +146,7 @@ cover {
 }
 #aboutTitle, #projectTitle, #contactTitle{
     cursor: pointer;
+    text-shadow: 0 0 3px rgba(200,200,200,0.5),rgba(200,200,200,0.5);
 }
 #aboutContent, #aboutContentLinks, #projectContent, #projectContentLinks,#contactContent, #contactContentLinks {
     display: none;
